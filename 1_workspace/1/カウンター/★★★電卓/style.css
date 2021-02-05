@@ -1,0 +1,14 @@
+.button {
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #DDD;
+}
+
+/*.rounded {
+    border-radius: 50px;
+}
+
+.transition {
+    transition: all 1s;
+}*/

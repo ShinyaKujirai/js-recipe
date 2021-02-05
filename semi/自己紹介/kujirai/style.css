@@ -1,0 +1,66 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("honobono.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+  
+.all {
+    height: 90%;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:  rgba(255, 255, 255, 0.5);
+}
+  
+.name {
+    font-family: serif;
+    font-size: 500%;
+    font-weight: 600;
+}
+  
+.profile {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#whale-button{
+    position:absolute;
+    border-radius:20px;
+    width: 77px;
+    height: 28px;
+    top: 10%;
+    left: 47%;
+    background: #FFF;
+}
+
+#whale-stamp{
+    position:absolute;
+    top: 0%;
+    left: 0%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#quiz1-url{
+    display: flex;
+    justify-content:center;
+}
+
+#feedback{
+    display: flex;
+    justify-content:center;
+}
